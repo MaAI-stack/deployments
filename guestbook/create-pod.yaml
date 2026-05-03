@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: web
-  namespace: bunny
+  namespace: default
 spec:
   containers:
     - name: web
