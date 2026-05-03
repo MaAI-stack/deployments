@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web
+  namespace: bunny
+spec:
+  containers:
+    - name: web
+      image: nginx:lastest
+      ports:
+        - name: web
+          protocol: TCP
+          containerPort: 80
+
